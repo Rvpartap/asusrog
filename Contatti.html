@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="it">
+
+    <head>
+        <title>Contatti &#8226; ASUS ROG</title>
+    <!--- META --->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--- LINKS --->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="https://www.asus.com/media/Odin/images/header/rog-gray_h.svg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+    </head>
+    <body>
+
+<!--- SITE BODY STILE --->
+        <style>
+            body{width: 100%; color: #fff; font-family: 'Audiowide', cursive; background-color: rgb(189, 189, 189);}
+        </style>
+
+<!--- HEADER --->
+        <header class="header clearfix">
+        <a href="Index.html" class="header__logo"><img src="rog-logo-header.png" alt="Rog_Asus_Logo" style="width:250px;height:50px;"></a>
+            <ul class="header__menu animate">
+                <li class="header__menu__item"><a href="Index.html">Home</a></li>
+                <li class="header__menu__item"><a href="Prodotti.html">Prodotti</a></li>
+                <li class="header__menu__item"><a href="Servizi.html">Servizi</a></li>
+                <li class="header__menu__item"><a href="Contatti.html">Contatti</a></li>
+        </header>
+        <style>
+            .header{background: #333;}
+            .header__logo{color: #fff; float:left; display: block; padding: 18px; text-decoration: none;}
+            .header__menu{float:right; margin: 0; padding: 20px;}
+            .header__menu__item{display: inline-block;}
+            .header__menu__item a{color: #fff; display: block; padding: 10px; text-decoration: none; font-size: 25px;}
+            .header__menu__item a:hover{background: #000;}
+        </style>
+
+<!--- CONTATTI ASUS ROG --->
+        <h4>Scrivici una E-mail.</h4>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+        <div class="info">
+            <p>Assistenza Clienti ASUS Shop</p>
+            <p>&#160;</p>
+            <p>Per informazioni sugli acquisti, domande sullo stato di avanzamento degli ordini, informazioni sui prodotti, resi, consegne, fatture, e in generale i problemi relativi agli ordini, contattare il centro di Assistenza Clienti ASUS Shop.</p>
+            <p>&#160;</p>
+            <p>&#9733; Altri modi per contattarci: &#160;&#160;&#160;&#160;&#160;&#160; <a href="https://rog.asus.com/support/Product/ContactUs/Services/questionform/shop_it@asus.com" style="color: #000;"><i class="fas fa-at"></i>&#160; shop_it@asus.com &#160;&#160;&#160;&#160;&#160;&#160; <a href="https://www.asus.com/it/support/CallUs" style="color: #000"><i class="fas fa-phone-volume"></i>&#160; Contattaci &#160;&#160;&#160;&#160;&#160;&#160; <a href="https://icr-emea.asus.com/webchat/icr.html?rootTreeId=EMEA.ACIT.IT-IT&treeId=EMEA.ACIT.IT-IT&tenantId=IT-IT&language=en-us" style="color: #000"><i class="fas fa-headset"></i>&#160; Servizi Online</a></a></a></p>
+        </div>
+        
+        <div class="container">
+            <form action="/action_page.php">
+                <label for="fname">&#8594; Cognome: </label>
+                <input type="text" id="Asurname" name="First-name" placeholder="Suo Cognome...">
+
+                <label for="lname">&#8594; Nome: </label>
+                <input type="text" id="Bname" name="Last-name" placeholder="Suo Nome...">
+
+                <label for="lname">&#8594; E-mail: </label>
+                <input type="text" id="Cemail" name="E-mail" placeholder="Sua E-mail...">
+
+                <label for="lname">&#8594; Numero di Telefono: </label>
+                <input type="text" id="Dphone" name="Phone-Number" placeholder="Il suo Numero di Telefono...">
+
+                <label for="problem">&#8594; Tipo di Richiesta: </label>
+                <select id="Eproblem" name="problem">
+                    <option value="Si prega di selezionare la categoria...">Si prega di selezionare la categoria...</option>
+                    <option value="Richiesta di Supporto Tecnico">Richiesta di Supporto Tecnico</option>
+                    <option value="Lamentela">Lamentela</option>
+                    <option value="Richiesta Informazioni Generiche">Richiesta Informazioni Generiche</option>
+                </select>
+
+                <label for="subject">&#8594; Soggetto: </label>
+                <textarea id="Fsubject" name="subject" placeholder="Scrivi qualcosa..." style="height:100px"></textarea>
+
+                <input type="submit" value="Invia &#160; &#9654;">
+            </form>
+        </div>
+
+    <!--- STYLE --->
+    <style>
+        * {box-sizing: border-box;}
+        h4{font-size: 40px; color: #000; padding: 40px; height: 10px;}
+        .info{font-size: 22px; color: #000; padding: 40px; font-family: 'Poppins', sans-serif;}
+        input[type=text], select, textarea {width: 100%; padding: 12px; border: 1px solid #333; border-radius: 5px; box-sizing: border-box; margin-top: 10px; margin-bottom: 16px; resize: vertical;}
+        input[type=submit] {background-color: #ff0000; color: #fff; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer;}
+        input[type=submit]:hover {background-color: #000000;}
+        .container{background-color: #f2f2f2; color: #000; padding: 40px; font-family: 'Poppins', sans-serif;}
+        .more_inf{float: left;}
+    </style>
+
+<!--- ASUS STORE MAP --->
+        <h1>ASUS SERVICE CENTER PIÙ VICINI A TE!</h1> <style>h1{text-align: center; font-size: 30px; padding: 20px; color: #000;}</style>
+        <center><iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d6061866.3530413695!2d9.156890734274974!3d42.10970496630785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sasus%20service%20center%20vicino%20a%20Italia!5e0!3m2!1sit!2sit!4v1628868969643!5m2!1sit!2sit" width="1200" height="450" style="border:5px solid black;" allowfullscreen="" loading="lazy"></iframe></center>
+        <p>&#160;</p>
+        <p>&#160;</p>
+
+<!--- GO TOP BUTTON --->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <!--- STYLE --->
+        <style>
+            #myBtn {display: none; position: fixed; bottom: 25px; right: 30px; z-index: 99; border: 1%; outline: none; background-color: red; color: white; cursor: pointer; padding: 20px; border-radius: 10px; font-size: 18px;}
+            #myBtn:hover {background-color: rgb(0, 0, 0);}
+        </style>
+
+    <!--- SCRIPT --->
+        <script>
+            mybutton = document.getElementById("myBtn");
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+            function topFunction() {
+                document.body.scrollTop = 0; // For Safari
+                document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            }
+        </script>
+
+<!--- FOOTER OF THE WEB SITE --->  
+        <footer class="header clearfix">
+            <div class="footer_info">
+                <div class="footer-width about">
+                    <h2>La Storia di ROG</h2>
+                    <p>La tecnologia non dorme mai, e nemmeno l'azione dovrebbe farlo. 
+                       Per chi vuole vincere al massimo livello, la Republic of Gamers vi attende. 
+                       Guidata da un'innovazione incessante, ROG è impegnata a produrre esperienze 
+                       fuori dal comune per i giocatori e gli appassionati di tutto il mondo.</p>
+                    <div class="social_media">
+                        <h2>I Nostri Social:</h2>
+                        <ul>
+                            <li><a href="https://www.facebook.com/ASUSROG.IT/"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="https://www.instagram.com/asus_rog_it/"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.youtube.com/c/ASUSROGItalia"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="https://www.asus.com/it/"><i class="fas fa-globe"></i></a></li>
+                            <li><a href="https://www.asus.com/campaign/tuf-gaming/it/"><i class="fas fa-gamepad"></i></a></li>
+                            <li><a href="https://rog.asus.com/forum/forum.php"><i class="fas fa-rss"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer_width link">
+                    <h2>Collegamenti Rapidi</h2>
+                    <ul>
+                        <li><a href="Index.html">Home</a></li>
+                        <li><a href="Prodotti.html">Prodotti</a></li>
+                        <li><a href="Servizi.html">Servizi</a></li>
+                        <li><a href="Contatti.html">Contatti</a></li>
+                    </ul>
+                </div>
+                <div class="footer_width rules">
+                    <h2>Informazioni, Invenzioni e Regole</h2>
+                    <ul>
+                        <li><a href="https://rog.asus.com/it/about-rog/">A PROPOSITO DI ROG...</a></li>
+                        <li><a href="https://rog.asus.com/microsite/ROG-Laptop-Display-Leadership/IT">ROG LAPTOP DISPLAY</a></li>
+                        <li><a href="https://www.asus.com/campaign/aura/">ASUS AURA</a></li>
+                        <li><a href="https://rog.asus.com/microsite/ROG-Intelligent-Cooling/it/">INTELLIGENT COOLING</a></li>
+                        <li><a href="https://rog.asus.com/it/terms-of-notice/Official-Site/">TERMINI DI UTILIZZO</a></li>
+                        <li><a href="https://rog.asus.com/it/terms-of-notice/Privacy_Policy/">REGOLE E PRIVACY</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="outer-footer">
+                <p>&#169; ASUSTEK COMPUTER INC. TUTTI I DIRITTI RISERVATI. - Sito Web Creato da <a href="https://linktr.ee/rvpartap">Vinay Partap Singh Rathour</a>.</p>
+            </div>
+        </footer>
+        
+    <!--- STYLE OF THE FOOTER --->    
+        <style>
+            *{margin: 0; padding: 0; box-sizing: border-box;}
+            a{text-decoration: none; transition: .5s; color: #fff;}
+            ul , li{list-style-type: none;}
+            .footer_info{background-color: #333; color: #fff; width: 90%; margin: 0 auto; display: flex; padding: 50px 0;}
+            .footer_info .footer_width{padding: 10px 90px;}
+            .footer_info h2{margin-bottom: 20px;}
+            .about{font-size: 18px;}
+            .about , .rules{width: 150%;}
+            .link{width: 20%;}
+            .social_media{margin-top: 40px;}
+            .social_media ul{display: flex;}
+            .social_media ul li a{display: inline-block; margin-right: 20px; width: 70px; height: 58px; padding-top: 15px; font-size: 25px; background-color: transparent; border: 1px solid rgb(255, 0, 0); text-align: center;}
+            .social_media ul li a:hover{background-color: rgb(255, 0, 0); color: #fff;}
+            .link ul li a{display: block; margin-bottom: 15px; font-size: 20px;}
+            .link ul li a:hover{color: rgb(247, 0, 0);}
+            .rules ul li{display: flex; align-items: center; margin-bottom: 15px; font-size: 18px;}
+            .rules ul li span{margin-right: 18px;}
+            .rules ul li a:hover{color: rgb(247, 0, 0);}
+
+            .outer-footer{padding: 20px; text-align: center; color: #fff; font-size: 18px; background-color: #000;}
+
+            .clearfix:after{visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0;}
+
+            * html .clearfix             { zoom: 1; } /* IE6 */
+            *:first-child+html .clearfix { zoom: 1; } /* IE7 */
+        </style>
+    </body>
+</html>

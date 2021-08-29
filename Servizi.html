@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="it">
+
+    <head>
+        <title>Servizi &#8226; ASUS ROG</title>
+    <!--- META --->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--- LINKS --->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="https://www.asus.com/media/Odin/images/header/rog-gray_h.svg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+    </head>
+    <body>
+
+<!--- HEADER --->
+        <header class="header clearfix">
+        <a href="Index.html" class="header__logo"><img src="rog-logo-header.png" alt="Rog_Asus_Logo" style="width:250px;height:50px;"></a>
+            <ul class="header__menu animate">
+                <li class="header__menu__item"><a href="Index.html">Home</a></li>
+                <li class="header__menu__item"><a href="Prodotti.html">Prodotti</a></li>
+                <li class="header__menu__item"><a href="Servizi.html">Servizi</a></li>
+                <li class="header__menu__item"><a href="Contatti.html">Contatti</a></li>
+        </header>
+        <style>
+            .header{background: #333;}
+            .header__logo{color: #fff; float:left; display: block; padding: 18px; text-decoration: none;}
+            .header__menu{float:right; margin: 0; padding: 20px;}
+            .header__menu__item{display: inline-block;}
+            .header__menu__item a{color: #fff; display: block; padding: 10px; text-decoration: none; font-size: 25px; font-family: "Audiowide", cursive;}
+            .header__menu__item a:hover{background: #000;}
+        </style>
+
+<!--- SERVIZI ASUS SFONDO --->
+        <div class="container_wall">
+            <img src="rog_service_wall.jpg" alt="rog_asus" style="width:100%;"> 
+                <div class="centered">Benvenuto in Asus ROG Service Center</div>
+        </div>
+    
+    <!--- STYLE --->
+        <style>
+            .container_wall {position: relative; text-align: center; color: white;}
+            .centered {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-family: "Audiowide", cursive; font-size: 60px; text-align: center;}
+        </style>
+
+<!--- SERVIZI ASUS ROG --->
+        <div class="go_up_now">
+            <button class="tablink" onclick="openPage('Download', this, '#aaaaaa')" id="defaultOpen"><i class="fas fa-download">&#160; Driver e Manuali</button></i>
+            <button class="tablink" onclick="openPage('Check', this, '#aaaaaa')"><i class="fas fa-user-check">&#160; Garanzia e Registrazione</button></i>
+            <button class="tablink" onclick="openPage('Tools', this, '#aaaaaa')"><i class="fas fa-tools">&#160; Servizio e Riparazione</button></i>
+            <button class="tablink" onclick="openPage('Map', this, '#aaaaaa')"><i class="fas fa-map-marked-alt">&#160; Asus Gold Store</button></i>
+        </div>   
+
+        <!--- ASUS DOWNLOAD --->
+
+        <div id="Download" class="tabcontent">
+            <p>&#160;</p>
+            <center><i class="fas fa-download" style="font-size: 100px; color: red; padding: 20px;"></i></center>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <h3>DRIVER E MANUALI</h3>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <center><div class="info"><p>Scaricare driver, software, firmware e manuali d'uso.</p></div></center>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <center><a href="https://rog.asus.com/it/support/Download-Center/"><button class="btn_success now">Entra nel centro Download &#160; &#9654;</button></a></center>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <center><hr style="color: #000; background-color: #000; height: 2px; width: 90%;"></center>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <center><i class="fab fa-google-play" style="font-size: 100px; color: red; padding: 20px;"></i></center>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <h3>APPLICAZIONI FAI-DA-TE</h3>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <center><div class="info"><p>Un modo semplice, affidabile e veloce per contattare il nostro servizio clienti.</p></div></center>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <center><a href="https://play.google.com/store/apps/details?id=com.asus.ia.asusapp"><button class="btn_success now">MyAsus App &#160; &#9654;</button></a></center>
+        </div>
+
+        <!--- ASUS CHECK --->
+
+        <div id="Check" class="tabcontent">
+            <p>&#160;</p>
+            <center><i class="fas fa-user-check" style="font-size: 100px; color: red; padding: 20px;"></i></center>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <h3>GARANZIA E REGISTRAZIONE</h3>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <center><div class="info"><p>Termini di garanzia e registrazione del prodotto.</p></div></center>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <center><a href="https://account.asus.com/registerform.aspx?lang=it-it"><button class="btn_success now">Registrazione del Prodotto &#160; &#9654;</button></a></center>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <center><hr style="color: #000; background-color: #000; height: 2px; width: 90%;"></center>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <center><a href="https://www.asus.com/it/support/FAQ/1041723"><button class="btn_success now" style="border: 3px solid black;"><i class="fas fa-check-circle"> &#160; &#62; &#160; &#62; &#160; Garanzia Legale &#160; &#60; &#160; &#60; &#160; &#9654;</i></button></a></center>                                 
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <center><a href="https://rog.asus.com/it/support/Article/568/"><button class="btn_success now" style="border: 3px solid black;"><i class="fas fa-heart-broken"> &#160; Danni Indotti dal cliente &#160; &#9654;</i></button></a>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;<a href="https://rog.asus.com/it/support/Article/775/"><button class="btn_success now" style="border: 3px solid black;"><i class="fas fa-info-circle"> &#160; Informazioni Accessorie sulla Garanzia &#160; &#9654;</i></button></a></center>                                 
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <center><a href="https://rog.asus.com/it/support/Article/590/"><button class="btn_success now" style="border: 3px solid black;"><i class="fas fa-box"> &#160; Condizioni di Garanzia Notebook Commercial &#160; &#9654;</i></button></a>&#160; &#160; &#160; &#160; &#160; &#160;<a href="https://rog.asus.com/it/support/Premium_Care/"><button class="btn_success now" style="border: 3px solid black;"><i class="fas fa-gem"> &#160; Asus Premium Care &#160; &#9654;</i></button></a></center>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <center><a href="https://rog.asus.com/it/support/Article/592/"><button class="btn_success now" style="border: 3px solid black; margin-bottom: -60px;"><i class="fas fa-info-circle"> &#160; Informazioni Hotline on Site Service &#160; &#9654;</i></button></a>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;<a href="https://rog.asus.com/it/support/Article/670/"><button class="btn_success now" style="border: 3px solid black; margin-bottom: -60px;"><i class="fas fa-sitemap"> &#160; Aree Remote on Site Service &#160; &#9654;</i></button></a></center>
+        </div>
+
+        <!--- ASUS TOOLS --->
+
+        <div id="Tools" class="tabcontent">
+            <p>&#160;</p>
+            <center><i class="fas fa-tools" style="font-size: 100px; color: red; padding: 20px;"></i></center>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <h3>SERVIZIO E RIPARAZIONE</h3>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <center><div class="info"><p>Trova tutte le informazioni sui servizi di Asus e le modalit&#225; per richiedere la riparazione del proprio prodotto.</p></div></center>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <center><a href="https://rog.asus.com/it/support#"><button class="btn_success now"> &#160; Clicca per più Informazioni &#160; &#9654;</button></a></center>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <center><hr style="color: #000; background-color: #000; height: 2px; width: 90%;"></center>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <h3>INFORMAZIONI E CONTATTI</h3>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <center><a href="https://rog.asus.com/support/Product/ContactUs/Services/questionform/?lang=it-it&isblack=1"><button class="btn_success now" style="border: 3px solid black;"><i class="fas fa-envelope"> &#160; Scrivici una E-mail &#160; &#9654;</i></button></a>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;<a href="https://www.asus.com/it/support/CallUs"><button class="btn_success now" style="border: 3px solid black;"><i class="far fa-address-book"> &#160; Contatti &#160; &#9654;</i></button></a>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;<a href="https://icr-emea.asus.com/webchat/icr.html?rootTreeId=EMEA.ACIT.IT-IT&treeId=EMEA.ACIT.IT-IT&tenantId=IT-IT&language=en-us"><button class="btn_success now" style="border: 3px solid black;"><i class="fas fa-headset"></i> &#160; Servizi On-line &#160; &#9654;</i></button></a></center>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <center><a href="https://privacy.asus.com/pi/it/privacy"><button class="btn_success now" style="border: 3px solid black; margin-bottom: -45px;"><i class="fas fa-database"> &#160; Customer’s Request on Personal Data &#160; &#9654;</i><p>&#160;</p><div class="overinf">Erase & Download Data</button></a></div></center>
+        </div>
+
+        <!--- ASUS GOLD STORE --->
+
+        <div id="Map" class="tabcontent">
+            <p>&#160;</p>
+            <center><i class="fas fa-map-marked-alt" style="font-size: 100px; color: red; padding: 20px;"></i></center>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <h3>CHI SONO GLI ASUS GOLD STORE?</h3>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <center><div class="info"><p>Gli ASUS Gold Store rappresentano il network dei Top Partner certificati ASUS in Italia, attualmente costituito da 26 punti vendita e in continuo sviluppo. Progettati per offrire consulenza e assistenza professionali, garantiscono un ricco assortimento che include le ultime soluzioni ASUS per soddisfare ogni tua necessità. In linea con la filosofia del Brand, gli ASUS Gold Store sono caratterizzati da materiali di design, originali e ricercati, che danno forma ad ambienti accoglienti, dall’atmosfera confortevole di ispirazione Zen.</p></div></center>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <center><div class="info_2"><p>Visita il sito web apposta per i Asus Gold Store, o dai un' occhiata alla mappa qui sotto.</p></div></center>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <center><a href="https://www.asusworld.it/it-IT/"><button class="btn_success now">Portami al sito &#160; &#9654;</button></a></center>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <p>&#160;</p>
+            <center><iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d6090287.283561818!2d9.157526428990284!3d42.26871482251238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sASUS%20GOLD%20STORE%20ITALIA!5e0!3m2!1sit!2sit!4v1628873800993!5m2!1sit!2sit" width="1200" height="450" style="border: 5px solid black; margin-bottom: -30px;" allowfullscreen="" loading="lazy"></iframe></center>
+        </div>
+
+    <!--- STYLE --->
+        <style>
+            * {box-sizing: border-box}
+            body, html {width: 100%;}
+            .go_up_now{margin-top: -4px;}
+            .tablink {background-color: #333; color: #fff; text-align: center; float: left; outline: none; cursor: pointer; padding: 15px 15px; font-size: 20px; width: 25%; border-radius: 0px;}
+            .tablink:hover {background-color: rgb(255, 0, 0); color: #fff;}
+            .tabcontent {color: rgb(0, 0, 0); display: none; padding: 100px 20px; height: 100%;}
+            #Download {background-color: #aaaaaa;}
+            #Check {background-color: #aaaaaa;}
+            #Tools {background-color: #aaaaaa;}
+            #Map {background-color: #aaaaaa;}
+            h3{font-size: 45px; color: #000; text-align: center;}
+            .info{font-size: 25px; color: #000; text-align: center; width: 90%;}
+            .info_2{font-size: 20px; color: #000; text-align: center; width: 90%;}
+            .overinf{font-size: 20px;}
+            .btn_success {border: 2px; color: rgb(255, 255, 255); padding: 20px; cursor: pointer; font-size: 25px; text-align: center; border-radius: 20px;}
+            .now {background-color: rgb(255, 0, 0);}
+            .now:hover {background-color: rgb(0, 0, 0);}
+        </style>
+
+    <!--- SCRIPT --->
+        <script>
+            function openPage(pageName, elmnt, color) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+
+                tablinks = document.getElementsByClassName("tablink");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].style.backgroundColor = "";
+                }
+
+                document.getElementById(pageName).style.display = "block";
+
+                elmnt.style.backgroundColor = color;
+            }
+
+            document.getElementById("defaultOpen").click();
+        </script>
+
+<!--- GO TOP BUTTON --->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <!--- STYLE --->
+        <style>
+            #myBtn {display: none; position: fixed; bottom: 25px; right: 30px; z-index: 99; border: 1%; outline: none; background-color: red; color: white; cursor: pointer; padding: 20px; border-radius: 10px; font-size: 18px; font-family: "Audiowide", cursive;}
+            #myBtn:hover {background-color: rgb(0, 0, 0);}
+        </style>
+
+    <!--- SCRIPT --->
+        <script>
+            mybutton = document.getElementById("myBtn");
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+            function topFunction() {
+                document.body.scrollTop = 0; // For Safari
+                document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            }
+        </script>
+
+<!--- FOOTER OF THE WEB SITE --->  
+        <footer class="header clearfix">
+            <div class="footer_info">
+                <div class="footer-width about">
+                    <h2>La Storia di ROG</h2>
+                    <p>La tecnologia non dorme mai, e nemmeno l'azione dovrebbe farlo. 
+                       Per chi vuole vincere al massimo livello, la Republic of Gamers vi attende. 
+                       Guidata da un'innovazione incessante, ROG è impegnata a produrre esperienze 
+                       fuori dal comune per i giocatori e gli appassionati di tutto il mondo.</p>
+                    <div class="social_media">
+                        <h2>I Nostri Social:</h2>
+                        <ul>
+                            <li><a href="https://www.facebook.com/ASUSROG.IT/"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="https://www.instagram.com/asus_rog_it/"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.youtube.com/c/ASUSROGItalia"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="https://www.asus.com/it/"><i class="fas fa-globe"></i></a></li>
+                            <li><a href="https://www.asus.com/campaign/tuf-gaming/it/"><i class="fas fa-gamepad"></i></a></li>
+                            <li><a href="https://rog.asus.com/forum/forum.php"><i class="fas fa-rss"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer_width link">
+                    <h2>Collegamenti Rapidi</h2>
+                    <ul>
+                        <li><a href="Index.html">Home</a></li>
+                        <li><a href="Prodotti.html">Prodotti</a></li>
+                        <li><a href="Servizi.html">Servizi</a></li>
+                        <li><a href="Contatti.html">Contatti</a></li>
+                    </ul>
+                </div>
+                <div class="footer_width rules">
+                    <h2>Informazioni, Invenzioni e Regole</h2>
+                    <ul>
+                        <li><a href="https://rog.asus.com/it/about-rog/">A PROPOSITO DI ROG...</a></li>
+                        <li><a href="https://rog.asus.com/microsite/ROG-Laptop-Display-Leadership/IT">ROG LAPTOP DISPLAY</a></li>
+                        <li><a href="https://www.asus.com/campaign/aura/">ASUS AURA</a></li>
+                        <li><a href="https://rog.asus.com/microsite/ROG-Intelligent-Cooling/it/">INTELLIGENT COOLING</a></li>
+                        <li><a href="https://rog.asus.com/it/terms-of-notice/Official-Site/">TERMINI DI UTILIZZO</a></li>
+                        <li><a href="https://rog.asus.com/it/terms-of-notice/Privacy_Policy/">REGOLE E PRIVACY</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="outer-footer">
+                <p>&#169; ASUSTEK COMPUTER INC. TUTTI I DIRITTI RISERVATI. - Sito Web Creato da <a href="https://linktr.ee/rvpartap">Vinay Partap Singh Rathour</a>.</p>
+            </div>
+        </footer>
+        
+    <!--- STYLE OF THE FOOTER --->    
+        <style>
+            *{margin: 0; padding: 0; box-sizing: border-box;}
+            a{text-decoration: none; transition: .5s; color: #fff;}
+            ul , li{list-style-type: none;}
+            .footer_info{background-color: #333; color: #fff; width: 90%; margin: 0 auto; display: flex; padding: 50px 0; font-family: "Audiowide", cursive;}
+            .footer_info .footer_width{padding: 10px 90px;}
+            .footer_info h2{margin-bottom: 20px;}
+            .about{font-size: 18px;}
+            .about , .rules{width: 150%;}
+            .link{width: 20%;}
+            .social_media{margin-top: 40px;}
+            .social_media ul{display: flex;}
+            .social_media ul li a{display: inline-block; margin-right: 20px; width: 70px; height: 58px; padding-top: 15px; font-size: 25px; background-color: transparent; border: 1px solid rgb(255, 0, 0); text-align: center;}
+            .social_media ul li a:hover{background-color: rgb(255, 0, 0); color: #fff;}
+            .link ul li a{display: block; margin-bottom: 15px; font-size: 20px;}
+            .link ul li a:hover{color: rgb(247, 0, 0);}
+            .rules ul li{display: flex; align-items: center; margin-bottom: 15px; font-size: 18px;}
+            .rules ul li span{margin-right: 18px;}
+            .rules ul li a:hover{color: rgb(247, 0, 0);}
+
+            .outer-footer{padding: 20px; text-align: center; color: #fff; font-size: 18px; background-color: #000; font-family: "Audiowide", cursive;}
+
+            .clearfix:after{visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0;}
+
+            * html .clearfix             { zoom: 1; } /* IE6 */
+            *:first-child+html .clearfix { zoom: 1; } /* IE7 */
+        </style>
+    </body>
+</html>
