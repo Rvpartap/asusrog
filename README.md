@@ -1,1 +1,1 @@
-# asusrog.github.io
+https://rvpartap.github.io/asusrog/Index.html
